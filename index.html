@@ -166,6 +166,30 @@
     .testimonial .tq{color:var(--gold-bright)}
     .testimonial cite{display:block;margin-top:18px;font:700 10px var(--font-body);letter-spacing:.14em;text-transform:uppercase;color:var(--gold);font-style:normal}
 
+    /* ---- NABÍDKA & CENY ---- */
+    #nabidka{background:var(--ivory);color:var(--night)}
+    #nabidka .branch-intro p{color:#4b574f}
+    #nabidka .branch-title .gold{color:var(--emerald)}
+    .how{margin:0 0 6vw}
+    .how .eyebrow{margin-bottom:22px;color:var(--emerald)}
+    .how-steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+    .how-steps>div{padding:24px;background:#fff;border:1px solid rgba(11,36,24,.14);box-shadow:0 12px 34px rgba(7,18,13,.05)}
+    .how-steps b{display:block;font:500 24px/1 var(--font-display);color:var(--gold);margin-bottom:14px}
+    .how-steps h4{margin:0 0 8px;font:500 21px/1.1 var(--font-display);color:var(--night)}
+    .how-steps p{margin:0;color:#58635b;font-size:13px}
+    .pricing{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:0 0 40px}
+    .price-card{padding:32px;background:var(--forest);color:var(--ivory);box-shadow:0 20px 50px rgba(7,18,13,.14)}
+    .price-card small{display:block;margin-bottom:16px;font:800 10px var(--font-body);letter-spacing:.14em;text-transform:uppercase;color:var(--gold-bright)}
+    .price-card ul{list-style:none;margin:0;padding:0}
+    .price-card li{display:flex;justify-content:space-between;gap:16px;align-items:baseline;padding:15px 0;border-top:1px solid var(--line)}
+    .price-card li span{color:#d8ded9;font-size:14px}
+    .price-card li b{font:500 21px/1 var(--font-display);color:var(--gold-bright);white-space:nowrap}
+    .price-note{margin:16px 0 0;font-size:12px;color:#9fb0a3}
+    .forwhom{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .forwhom>div{padding:22px 0;border-top:2px solid var(--emerald)}
+    .forwhom small{display:block;margin-bottom:8px;font:800 10px var(--font-body);letter-spacing:.1em;text-transform:uppercase;color:var(--emerald)}
+    .forwhom p{margin:0;color:#4b574f;font-size:14px}
+
     /* ---- ABOUT ---- */
     .about{position:relative;display:grid;grid-template-columns:1.15fr 1.6fr;gap:6vw;align-items:end;padding:10vw 8vw;overflow:hidden;background:var(--army)}
     .about:after{content:"\2726";position:absolute;right:-2vw;bottom:-13vw;color:rgba(200,168,95,.12);font:340px var(--font-display)}
@@ -205,12 +229,12 @@
       .hero-image{background-image:linear-gradient(90deg,rgba(3,12,8,.9),rgba(3,12,8,.18) 50%,rgba(3,12,8,.9)),linear-gradient(0deg,var(--night),transparent 65%),var(--phoenix)}
       .crossroads{grid-template-columns:1fr}.path{min-height:165px;border-right:0;border-bottom:1px solid rgba(232,207,138,.48)}.path:last-child{border-bottom:0}
       .branch-head,.about{grid-template-columns:1fr}.branch{padding:90px 5vw}.branch-mark{display:none}
-      .df-top{grid-template-columns:1fr;gap:24px;padding-bottom:26px;margin-bottom:26px}.marketing-layout{grid-template-columns:1fr}.about-sign{font-size:70px}.service-grid{grid-template-columns:1fr 1fr}.mentoring-grid{grid-template-columns:1fr 1fr}.post-cards{grid-template-columns:1fr}.contact{padding:100px 6vw}
+      .df-top{grid-template-columns:1fr;gap:24px;padding-bottom:26px;margin-bottom:26px}.marketing-layout{grid-template-columns:1fr}.about-sign{font-size:70px}.service-grid{grid-template-columns:1fr 1fr}.mentoring-grid{grid-template-columns:1fr 1fr}.post-cards{grid-template-columns:1fr}.how-steps{grid-template-columns:1fr 1fr}.pricing{grid-template-columns:1fr}.forwhom{grid-template-columns:1fr}.contact{padding:100px 6vw}
     }
     @media(max-width:620px){
       body:before{border-width:4px}.brand{font-size:18px}.linkedin{font-size:0}.hero{min-height:auto;padding-top:110px}.hero-copy{min-height:auto;margin-bottom:30vh;padding:22px 20px}.hero-image{background-position:center top}
       .hero h1{font-size:clamp(42px,14vw,64px)}.hero-lead{font-size:16px}.path{grid-template-columns:auto 1fr;gap:16px;padding:23px}.path-arrow{grid-column:2;justify-self:start;width:40px;height:40px}.path h2{font-size:29px}
-      .metrics{grid-template-columns:1fr 1fr}.service-grid{grid-template-columns:1fr}.service{min-height:220px}.mentoring-grid{grid-template-columns:1fr}.gallery{grid-template-columns:1fr}.weblinks{grid-template-columns:1fr}.about-portrait img{max-width:320px}.defence-feature{margin-bottom:80px;padding:24px}.defence-scope{grid-template-columns:1fr}.marketing-layout{gap:60px}.sectors{padding:22px}.sector{grid-template-columns:1fr;gap:7px}.sector span{text-align:left}.about{padding:90px 6vw}.about h2{font-size:clamp(42px,12vw,64px)}
+      .metrics{grid-template-columns:1fr 1fr}.service-grid{grid-template-columns:1fr}.service{min-height:220px}.mentoring-grid{grid-template-columns:1fr}.how-steps{grid-template-columns:1fr}.gallery{grid-template-columns:1fr}.weblinks{grid-template-columns:1fr}.about-portrait img{max-width:320px}.defence-feature{margin-bottom:80px;padding:24px}.defence-scope{grid-template-columns:1fr}.marketing-layout{gap:60px}.sectors{padding:22px}.sector{grid-template-columns:1fr;gap:7px}.sector span{text-align:left}.about{padding:90px 6vw}.about h2{font-size:clamp(42px,12vw,64px)}
       .contact{min-height:720px}.contact h2{font-size:clamp(52px,15vw,78px)}footer{grid-template-columns:1fr;gap:17px;align-items:start;padding:35px 6vw}footer a{justify-self:start}
     }
     @media(prefers-reduced-motion:reduce){
@@ -227,7 +251,7 @@
   <a class="skip" href="#rozcestnik">Přeskočit na rozcestník</a>
   <header class="topbar">
     <a class="brand" href="#top">Nadine Sokolová<small>MBA · MSc.</small></a>
-    <nav aria-label="Hlavní navigace"><a href="#marketing">Marketing</a><a href="#management">Projektový management</a><a href="#mentoring">Mentoring</a><a href="#o-mne">O mně</a></nav>
+    <nav aria-label="Hlavní navigace"><a href="#marketing">Marketing</a><a href="#management">Projektový management</a><a href="#mentoring">Mentoring</a><a href="#nabidka">Nabídka</a><a href="#o-mne">O mně</a></nav>
     <a class="linkedin" href="https://www.linkedin.com/in/nadine-sokolova/?locale=cs" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
   </header>
 
@@ -347,6 +371,50 @@
         <p>Myslím, že toto je mentoring, ktorý by mal absolvovať kazdý, kto nechce na podnikateľskej ceste vyhorieť. Je pre každého, kto chce žiť a podnikať v súlade so sebou. Moc ďakujem Nadi, robíš to skvele! ♥️<span class="tq">"</span></p>
         <cite>Eva Mikulka · mentoring</cite>
       </figure>
+    </section>
+
+    <section class="branch" id="nabidka">
+      <div class="branch-head"><div class="branch-title"><p class="eyebrow">Nabídka &amp; ceny</p><h2>Víte, do čeho<br><span class="gold">jdete.</span></h2></div><div class="branch-intro"><p>Nedělám práci za vás. Pomůžu vám vidět celý systém, srovnat priority a udělat správné kroky: od strategie a procesů přes AI automatizaci až po značku, web a komunikaci.</p></div></div>
+
+      <div class="how reveal">
+        <p class="eyebrow">Jak to funguje</p>
+        <div class="how-steps">
+          <div><b>01</b><h4>Nezávazný call</h4><p>15-20 min: zjistíme, jestli si sedneme a v čem umím pomoct.</p></div>
+          <div><b>02</b><h4>Návrh a cena</h4><p>Rozsah i cena jasně dopředu, bez překvapení.</p></div>
+          <div><b>03</b><h4>Práce</h4><p>Konzultace, nebo projekt s pevným rozsahem.</p></div>
+          <div><b>04</b><h4>Předání</h4><p>Odcházíte s konkrétním plánem, ne jen s pocitem.</p></div>
+        </div>
+      </div>
+
+      <div class="pricing reveal">
+        <div class="price-card">
+          <small>Konzultace</small>
+          <ul>
+            <li><span>Jednotlivá konzultace</span><b>2 500 Kč</b></li>
+            <li><span>Balíček 5 + 1 zdarma</span><b>12 500 Kč</b></li>
+            <li><span>Balíček 10 konzultací</span><b>20 000 Kč</b></li>
+          </ul>
+          <p class="price-note">60-90 min + zápis a konkrétní kroky.</p>
+        </div>
+        <div class="price-card">
+          <small>Projekty s pevným rozsahem</small>
+          <ul>
+            <li><span>Marketingová strategie (sprint)</span><b>od 20 000 Kč</b></li>
+            <li><span>Brand manuál</span><b>od 15 000 Kč</b></li>
+            <li><span>Web</span><b>od 20 000 Kč</b></li>
+            <li><span>AI automatizace: audit + nastavení</span><b>od 15 000 Kč</b></li>
+            <li><span>Nastavení sítí + obsahový systém</span><b>od 10 000 Kč</b></li>
+            <li><span>Měsíční doprovod (retainer)</span><b>od 10 000 Kč/měs</b></li>
+          </ul>
+          <p class="price-note">Ceny bez DPH. Přesnou cenu vždy potvrdím dopředu podle rozsahu.</p>
+        </div>
+      </div>
+
+      <div class="forwhom reveal">
+        <div><small>Startupy &amp; zakladatelé</small><p>Strategie, procesy a jasný směr.</p></div>
+        <div><small>Malé firmy &amp; OSVČ</small><p>Marketing, web a automatizace, které fungují.</p></div>
+        <div><small>Solopreneuři &amp; tvůrci</small><p>Značka, sítě a systém, který udržíte sami.</p></div>
+      </div>
     </section>
 
     <section class="about" id="o-mne">
